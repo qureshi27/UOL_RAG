@@ -1,0 +1,17 @@
+{
+  "name": "rag-deployment-scripts",
+  "version": "1.0.0",
+  "description": "Deployment and maintenance scripts for RAG application",
+  "scripts": {
+    "setup": "node setup.js",
+    "migrate": "node migrate.js",
+    "seed": "node seed.js",
+    "backup": "node backup.js",
+    "health-check": "node health-check.js"
+  },
+  "dependencies": {
+    "pg": "^8.11.0",
+    "dotenv": "^16.3.1",
+    "bcrypt": "^5.1.0"
+  }
+}
